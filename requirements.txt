@@ -5,6 +5,7 @@ jupyter>=1.0.0                  # Interactive notebook
 numpy>=1.24.0                   # Fast math operations 
 matplotlib>=3.7.0               # Create simple charts
 tqdm>=4.66.0                    # Show progress bars
+psutil>=5.9.0                   # System monitoring (CPU/memory usage)
 
 # Basic AI tools
 torch>=2.1.0                    # PyTorch: Main AI framework
