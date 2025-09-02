@@ -1,0 +1,107 @@
+# .gitignore
+
+# ===========================================
+# PYTHON-SPECIFIC FILES (Always ignore these)
+# ===========================================
+__pycache__/                    # Python bytecode cache (auto-generated)
+*.py[cod]                       # Compiled Python files
+*.so                           # Compiled extensions
+*.egg-info/                    # Package metadata
+.Python                        # Python interpreter files
+build/                         # Build artifacts
+develop-eggs/                  # Development artifacts
+dist/                          # Distribution packages
+downloads/                     # Downloaded packages
+eggs/                          # Egg packages
+.eggs/                         # More egg stuff
+lib/                          # Library files
+lib64/                        # 64-bit library files
+parts/                        # Parts directory
+sdist/                        # Source distributions
+var/                          # Variable data
+wheels/                       # Wheel packages
+*.egg-info/                   # Egg info
+.installed.cfg                # Installation config
+*.egg                         # Egg files
+
+# ===========================================
+# AI/ML SPECIFIC FILES
+# ===========================================
+*.bin                         # Model weight files (often 1-10GB each!)
+*.safetensors                 # Another model format
+*.ckpt                        # PyTorch checkpoints
+*.pth                         # PyTorch model files
+*.pkl                         # Pickle files (can contain models)
+*.h5                          # HDF5 files (Keras models)
+*.hdf5                        # More HDF5 files
+models/                       # Directory where we'll download models
+checkpoints/                  # Training checkpoints
+*.engine                      # TensorRT engine files (compiled models)
+*.plan                        # TensorRT plan files
+
+# ===========================================
+# DEVELOPMENT ENVIRONMENT FILES
+# ===========================================
+.env                          # Environment variables (may contain secrets!)
+.venv/                        # Virtual environment (your project's Python)
+env/                          # Another virtual environment name
+venv/                         # Yet another virtual environment name
+ENV/                          # Environment directory
+env.bak/                      # Environment backup
+
+# ===========================================
+# JUPYTER NOTEBOOK FILES
+# ===========================================
+.ipynb_checkpoints/           # Jupyter saves backup versions here
+*.ipynb_checkpoints          # More checkpoint files
+
+# ===========================================
+# IDE AND EDITOR FILES
+# ===========================================
+.vscode/                      # VS Code settings
+.idea/                        # PyCharm settings
+*.swp                         # Vim swap files
+*.swo                         # More Vim files
+.DS_Store                     # macOS file system metadata
+Thumbs.db                     # Windows thumbnail cache
+
+# ===========================================
+# DATA AND LOGS
+# ===========================================
+data/                         # Raw data files
+datasets/                     # Downloaded datasets
+logs/                         # Log files
+*.log                         # Individual log files
+wandb/                        # Weights & Biases experiment tracking
+mlruns/                       # MLflow experiment tracking
+
+# ===========================================
+# TEMPORARY AND CACHE FILES
+# ===========================================
+tmp/                          # Temporary files
+temp/                         # More temporary files
+.cache/                       # Cache directory
+*.tmp                         # Temporary files
+*.temp                        # More temporary files
+
+# ===========================================
+# SECRETS AND CONFIGURATION
+# ===========================================
+.env.local                    # Local environment variables
+.env.production               # Production secrets
+config/secrets.yaml           # Secret configuration
+api_keys.txt                  # API keys
+credentials.json              # Credentials file
+*.key                         # Private keys
+*.pem                         # Certificate files
+
+# ===========================================
+# SYSTEM FILES (Operating system specific)
+# ===========================================
+.DS_Store                     # macOS metadata
+.DS_Store?                    # macOS metadata variant
+._*                           # macOS resource forks
+.Spotlight-V100              # macOS Spotlight
+.Trashes                     # macOS trash
+ehthumbs.db                  # Windows thumbnail database
+Thumbs.db                    # Windows thumbnail cache

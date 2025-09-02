@@ -1,0 +1,11 @@
+# LLM Inference Optimization
+
+# Python tools
+jupyter>=1.0.0                  # Interactive notebook
+numpy>=1.24.0                   # Fast math operations 
+matplotlib>=3.7.0               # Create simple charts
+tqdm>=4.66.0                    # Show progress bars
+
+# Basic AI tools
+torch>=2.1.0                    # PyTorch: Main AI framework
+transformers>=4.35.0            # Pre-built AI models from HuggingFace
